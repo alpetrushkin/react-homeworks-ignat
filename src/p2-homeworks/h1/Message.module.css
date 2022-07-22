@@ -1,0 +1,28 @@
+.message {
+    display: flex;
+    background-color: greenyellow;
+    padding: 5px;
+    align-items: center;
+}
+
+.avatar {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 100%;
+}
+
+.dialogs {
+    background-color: green;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+h5 {
+    margin: 0;
+    color: pink;
+}
+
+.chat {
+    color: #ffffff;
+}
