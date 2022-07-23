@@ -11,7 +11,7 @@ function Message(props:TaskType) {
          <div className={s.dialogs}>
             <h5>{props.name}</h5>
             <span className={s.chat}>{props.message}</span>
-            <span>{props.time}</span>
+            <span className={s.time}>{props.time}</span>
          </div>
       </div>
    )

@@ -2,20 +2,35 @@
     display: flex;
     background-color: greenyellow;
     padding: 5px;
-    align-items: center;
+    position: relative;
 }
 
 .avatar {
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
     border-radius: 100%;
+    bottom: 5px;
 }
 
 .dialogs {
-    background-color: green;
+    align-items: center;
+    position: relative;
+    background-color: #072807;
     padding: 5px;
+    left: 40px;
     border-radius: 2px;
+}
+.dialogs::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -9px;
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #072807;
+    border-left: 10px solid transparent;
 }
 
 h5 {
@@ -25,4 +40,10 @@ h5 {
 
 .chat {
     color: #ffffff;
+}
+
+.time {
+    margin-left: 5px;
+    color: green;
+    opacity: 0.5;
 }
